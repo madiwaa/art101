@@ -4,13 +4,15 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 :root{
-  --primary: rgb(99, 34, 11);
-  --secondary: rgba(221, 216, 196, 0.75);
-  --accent: rgb(250, 242, 100);
+  --primary: #3d6fad;
+  --secondary: #4a88c5;
+  --third: #99aedb;
+  --accent: #20498a;
 }
 
 body {
-  background-color: #50808e;
+  background-color: var(--accent);
+  width: 50%;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -30,13 +32,13 @@ h1 {
   margin: 10px;
   padding: 10px;
   border: solid 1px #888;
-  background-color: var(--secondary);
+  background-color: var(--third);
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #af824b;
+  border: solid 0px #888;
+  background-color: var(--third);
 }
