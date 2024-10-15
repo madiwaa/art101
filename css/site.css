@@ -3,8 +3,14 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
+:root{
+  --primary: rgb(99, 34, 11);
+  --secondary: rgba(221, 216, 196, 0.75);
+  --accent: rgb(250, 242, 100);
+}
+
 body {
-  background-color: #50808E;
+  background-color: #50808e;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -24,7 +30,7 @@ h1 {
   margin: 10px;
   padding: 10px;
   border: solid 1px #888;
-  background-color: #84B59F;
+  background-color: var(--secondary);
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -32,5 +38,5 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-color: #A3C9A8;
+  background-color: #af824b;
 }

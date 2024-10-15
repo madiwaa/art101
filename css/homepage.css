@@ -1,6 +1,10 @@
 /* this css file will only style the homepage of our site */
 
-.cat-photo {
+.aquarium-pic-white-outfit {
   margin: 10px;
-  max-width: 500px;
+  max-width: 300px;
+  object-position: top;
+
 }
+
+
