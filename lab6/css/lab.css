@@ -7,3 +7,10 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  .picture-of-my-car {
+    margin: 10px;
+    max-width: 450px;
+    object-position: top;
+  
+  }
