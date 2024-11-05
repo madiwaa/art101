@@ -3,7 +3,7 @@
 // Date: 11/04/2024
 
 //add button
-$("#challenge").append("<button id='button-challenge'>Make special</button>");
+$("#challenge").append("<button id='button-challenge'>Click me!</button>");
 //add click listener to section button
 $("#button-challenge").click(function(){
 //add the special sectionfrom css when you click button
