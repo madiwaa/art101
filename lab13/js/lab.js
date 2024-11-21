@@ -4,7 +4,7 @@
    Date: 18 November 2024
 */
 
-console.log('lab.js is running');
+// console.log('lab.js is running');
 
  var maxFactors = 4;
 
